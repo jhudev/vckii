@@ -1,0 +1,11 @@
+note <- sprintf("R package version %s", meta$Version)
+
+bibentry(bibtype = "Manual",
+         title = "vckii: Simplified data management for verification, version control, and error detection. / R Package",
+         author = c(person("Jesse", "Huang")),
+         year = "2020",
+         month = "Aug",
+         note = note,
+         publisher="OSF",
+         url = "osf.io/xgd7q",
+         textVersion = "Huang J. vckii: Simplified data management for verification, version control, and error detection. / R Package. osf.io/xgd7q. Published August 1, 2020.")

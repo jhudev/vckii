@@ -1,0 +1,23 @@
+Package: vckii
+Type: Package
+Title: Simplified data management for verification, version control,
+        and error detection
+Version: 0.1.0
+Date: 2020-08-01
+Author: Jesse Huang
+Maintainer: Jesse Huang <rpackage@j-huang.com>
+Description: Simple error detection and version control for the importing, exporting, and
+    transfering of data using CRC32 checksum. A hash file is generated for each dataset
+    containing the summary hashes for all columns and rows along with col/row names. Each file is created 
+    before exporting a dataset and compared to hashes after importing to ensure consistency 
+    in the datasets between working sessions of each user. In addition, each file 
+    contains hashes organized by row and column which can be used for easy debugging of 
+    potential errors.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.1.0)
+Imports: digest, graphics, grDevices
+RoxygenNote: 7.1.0
+NeedsCompilation: no
+Packaged: 2020-08-01 21:55:09 UTC; JH
